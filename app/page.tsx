@@ -11,7 +11,7 @@ export default function BankOfAmericaApp() {
   const [accounts, setAccounts] = useState<Account[]>([])
   const [loading, setLoading] = useState(true)
 
-  // Inicializar base de datos y cargar cuentas
+  // Inicializar base de datos //
   useEffect(() => {
     const initializeApp = async () => {
       try {
